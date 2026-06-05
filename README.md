@@ -1,16 +1,19 @@
-PhysicsCam Stream System
+# PhysicsCam Stream System
 
 A lightweight Raspberry Pi camera streaming system that automatically starts a live MJPEG video stream on boot. Designed for attaching to the top of a Vernier Go Direct Cart for Physics lessons.
 
-Features
-  Live MJPEG camera stream over HTTP
-  Low-latency OpenCV-based capture
-  Auto-start on boot via systemd
-  Remote access via Tailscale (technically optional)
-  Simple install script for quick deployment
-  Lightweight and Raspberry Pi optimized
+## Features
+- Live MJPEG camera stream over HTTP
+- Low-latency OpenCV-based capture
+- Auto-start on boot via systemd
+- Remote access via Tailscale (technically optional)
+- Simple install script for quick deployment
+- Lightweight and Raspberry Pi optimized
 
-Hardware Requirements
-  Raspberry Pi (tested on Pi 4)
-  USB webcam or compatible camera
-  Raspberry Pi OS (Lite recommended)
+## Hardware Requirements
+- Raspberry Pi (tested on Pi 4)
+- USB webcam or compatible camera
+- Raspberry Pi OS (Lite recommended)
+
+## Resources
+[Google Docs Install Guide](https://docs.google.com/document/d/1OoKfrTFKT-869SxPxFVq-bdb-yJlqG57AmZI6GDM404/edit?usp=sharing)
