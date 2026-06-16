@@ -70,21 +70,15 @@ ln -sf /etc/nginx/sites-available/pi-cam /etc/nginx/sites-enabled/pi-cam
 
 systemctl restart nginx
 
-echo "[6/6] Installing Tailscale..."
-curl -fsSL https://tailscale.com/install.sh | sh
+echo "[6/6] Finalizing installation..."
+
 
 echo "=================================="
 echo "SETUP COMPLETE"
 echo "=================================="
 echo ""
-echo "NEXT STEP (IMPORTANT):"
-echo "Run this once to log into Tailscale:"
 echo ""
-echo "    sudo tailscale up"
-echo ""
-echo "Then open the login link it prints."
-echo ""
-echo "Stream will be available at:"
+echo "Stream will be available on your local network at:"
 echo "http://<pi-ip>/"
 echo "=================================="
 
