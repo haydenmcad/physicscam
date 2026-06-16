@@ -25,6 +25,18 @@ gstreamer1.0-plugins-bad \
 gstreamer1.0-plugins-ugly \
 gstreamer1.0-libav
 
+echo "[2.5/6] Configuring Wi-Fi (School Router)..."
+
+apt install -y network-manager
+systemctl enable NetworkManager
+systemctl start NetworkManager
+
+sleep 3
+
+nmcli dev wifi connect "NETGEAR47"
+
+echo "Wi-Fi configured and saved permanently"
+
 echo "[3/6] Setting up camera app..."
 mkdir -p /opt/pi-cam
 cp stream.py /opt/pi-cam/stream.py
