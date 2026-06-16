@@ -2,6 +2,8 @@
 
 A lightweight Raspberry Pi camera streaming system that automatically starts a live MJPEG video stream on boot. Designed for attaching to the top of a Vernier Go Direct Cart for Physics lessons.
 
+NO LONGER HAS TAILSCALE SUPPORT
+
 ## Features
 - Live MJPEG camera stream over HTTP
 - Low-latency OpenCV-based capture
